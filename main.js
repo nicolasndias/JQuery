@@ -20,6 +20,11 @@ $(document).ready(function(){
 
         $(novoItem).fadeIn(5000);
 
-        
+        // Limpar o campo após adicionar a tarefa
+        $('#Nova-tarefa').val('');
     })
+// Adiciona riscado ao clicar na tarefa
+$('ul').on('click', 'li .Tarefa', function() {
+    $(this).toggleClass('riscado');
+});
 })

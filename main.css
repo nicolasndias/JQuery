@@ -85,3 +85,8 @@ ul li {
     justify-content: center;
     text-decoration: line-through;
 }
+
+.riscado {
+    text-decoration: line-through;
+    color: #888; /* Opcional: dá um tom mais "apagado" */
+}
