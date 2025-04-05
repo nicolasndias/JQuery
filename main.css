@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #5f27cd;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #341f97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 0 auto;
+    width: 60%;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+    margin: 0 auto;
+    width: 60%;
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button{
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+#botao-cancelar {
+    background-color: #EA2027;
+}
+
+ul {  
+    align-content: center;    
+    justify-content: center;    
+}
+
+ul li {
+    max-width: 60%;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;    
+    display: flex;
+
+}
+
+.Tarefa {
+    padding: 16px 0;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Tarefa :checked {
+    padding: 16px 0;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: line-through;
+}
